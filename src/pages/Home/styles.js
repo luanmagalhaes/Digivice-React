@@ -13,6 +13,7 @@ align-items: center;
 
 @media only screen and (max-width: 600px) {
   background-size: 100% auto;
+  background-repeat: no-repeat;
 }
 
 input {
