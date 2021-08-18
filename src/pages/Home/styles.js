@@ -11,6 +11,10 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 
+@media only screen and (max-width: 600px) {
+  background-size: 100% auto;
+}
+
 input {
 background-color: white;
 border: none;
@@ -28,6 +32,7 @@ color: #102e98;
 background-color: white;
 font-family: 'Sigmar One', cursive;
 margin-bottom: 10px;
+text-align: center;
 }
 
 .relative {
